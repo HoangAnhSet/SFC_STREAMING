@@ -1,0 +1,2 @@
+ffmpeg -re -i file_example_MP4_480_1_5MG.mp4 -c:v flv -s 800x600 -c:a aac -ar 44100 -ac 1 -f flv rtmp://192.168.20.4/show
+-c:v flv -s 800x600 -c:a aac -ar 44100 -ac 1 -f flv rtmp://192.168.20.4/show
